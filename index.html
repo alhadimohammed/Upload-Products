@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project [1]</title>
+        <!-- main CSS File -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- start heading -->
+            <div class="head">
+                <h2>crud</h2>
+                <p>product management system</p>
+            </div>
+            <!-- end heading -->
+
+            <div class="inputs">
+                <div>
+                    <input placeholder="title" type="text" name="title" id="title">
+                    <input placeholder="category" type="text" name="category" id="category">
+                </div>
+                <div class="price">
+                    <input onkeyup="gettotle()" placeholder="price" type="number" name="price" id="price">
+                    <input onkeyup="gettotle()" placeholder="taxes" type="number" name="taxes" id="taxes">
+                    <input onkeyup="gettotle()" placeholder="ads" type="number" name="ads" id="ads">
+                    <input onkeyup="gettotle()" placeholder="discount" type="number" name="discount" id="discount">
+                    <span id="totle"></span>
+                </div>
+                <div class="creatediv">
+                    <input placeholder="count" type="number" name="count" id="count">
+                    <div>
+                        <button id="create">Create</button>
+                        <p class="iconeshearc" id="iconeshearc"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="outputs">
+                <div class="divsearch" id="divsearch">
+                    <input onkeyup="searchindata(this.value)" placeholder="search" type="text" name="search" id="search">
+                    <div class="search">
+                        <button onclick="searchdata(this.id)" id="searchtitle">search by Title</button>
+                        <button onclick="searchdata(this.id)" id="searchcategory">search by category</button>
+                    </div>
+                </div>
+                <table>
+                    <tr>
+                        <th>id</th>
+                        <th>title</th>
+                        <th>price</th>
+                        <th>taxes</th>
+                        <th>ads</th>
+                        <th>dicount</th>
+                        <th>total</th>
+                        <th>category</th>
+                        <th>action</th>
+                    </tr>
+                    <tbody id="tbody"></tbody>
+                </table>
+                <div class="searchdelate">
+                    <div id="deleteAll"></div>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
