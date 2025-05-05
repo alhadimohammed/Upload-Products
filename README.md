@@ -1,8 +1,6 @@
 # [Upload Products](https://alhadimohammed.github.io/Upload-Products/)
 
-
-## 💫 About Project:
-- feature 
+## 💫 feature 
   - Product Storage
   - Display Products
   - Modify Products
