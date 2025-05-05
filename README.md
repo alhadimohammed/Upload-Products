@@ -4,17 +4,13 @@
 
 
 ## 💫 About Project:
-
-
-## 💫 About Me:
 - feature 
   - Product Storage
   - Display Products
   - Modify Products
 
 
-
-  
+## 💫 About Me:
 wep disgin (front end)<br>full stack
 
 
