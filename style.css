@@ -8,7 +8,7 @@
     margin-right: auto;
 }
 @media (min-width: 767px){
-    .container {
+    .container {min-width: 170pmin-width: 170px;x;
         width: 750px;
     }
 }
@@ -155,6 +155,7 @@
 }
 .container .search button {
     width: 20%;
+    min-width: 170px;
 }
 .container table {
     position: relative;
